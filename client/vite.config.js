@@ -8,6 +8,7 @@ export default defineConfig({
 
     VitePWA({
       registerType: "autoUpdate",
+      injectRegister: "auto",
 
       manifest: {
         name: "Meen Machan",
